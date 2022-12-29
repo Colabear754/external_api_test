@@ -1,4 +1,4 @@
-package com.entropy.platform_test.config
+package com.colabear754.external_api_test.config
 
 import org.springframework.context.annotation.Bean
 import org.springframework.context.annotation.Configuration
