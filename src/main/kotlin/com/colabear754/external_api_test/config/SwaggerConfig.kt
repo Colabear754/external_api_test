@@ -19,7 +19,7 @@ class SwaggerConfig {
         .produces(getProduceContentTypes())
         .apiInfo(swaggerInfo())
         .select()
-        .apis(RequestHandlerSelectors.basePackage("com.entropy.platform_test.controllers"))
+        .apis(RequestHandlerSelectors.basePackage("com.colabear754.external_api_test.controllers"))
         .paths(PathSelectors.any())
         .build()
         .useDefaultResponseMessages(false)
